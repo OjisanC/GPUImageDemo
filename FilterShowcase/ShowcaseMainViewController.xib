@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShowcaseMainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZd-3N-9Ux">
+                    <rect key="frame" x="50" y="100" width="275" height="60"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.28595400528169013" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Qky-eG-kUc"/>
+                    </constraints>
+                    <state key="normal" title="Picture">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="useDefaultPicture:" destination="-1" eventType="touchUpInside" id="iSr-FU-Wgd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPu-1d-2be">
+                    <rect key="frame" x="50" y="320" width="275" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.53609154929577463" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="RVq-zk-bDV"/>
+                    </constraints>
+                    <state key="normal" title="Camera">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="useCamera:" destination="-1" eventType="touchUpInside" id="Gtz-wh-4jB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNU-kX-QTG">
+                    <rect key="frame" x="50" y="210" width="275" height="60"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.308318661971831" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Fhu-Wg-uPB"/>
+                    </constraints>
+                    <state key="normal" title="Photos">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="usePhotos:" destination="-1" eventType="touchUpInside" id="np4-Ng-hjw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CNU-kX-QTG" firstAttribute="top" secondItem="JZd-3N-9Ux" secondAttribute="bottom" constant="50" id="1WF-8f-ddH"/>
+                <constraint firstItem="yPu-1d-2be" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="4Wy-8w-wFg"/>
+                <constraint firstAttribute="trailing" secondItem="yPu-1d-2be" secondAttribute="trailing" constant="50" id="AVG-Pr-tNP"/>
+                <constraint firstAttribute="trailing" secondItem="JZd-3N-9Ux" secondAttribute="trailing" constant="50" id="AjH-5h-bnU"/>
+                <constraint firstItem="yPu-1d-2be" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="BFn-SO-aLt"/>
+                <constraint firstAttribute="trailing" secondItem="yPu-1d-2be" secondAttribute="trailing" constant="50" id="CgO-eM-KuN"/>
+                <constraint firstItem="JZd-3N-9Ux" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Ji0-VB-3Oi"/>
+                <constraint firstItem="JZd-3N-9Ux" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="oqJ-n1-MWn"/>
+                <constraint firstItem="yPu-1d-2be" firstAttribute="top" secondItem="CNU-kX-QTG" secondAttribute="bottom" constant="50" id="pOj-E6-N7k"/>
+                <constraint firstItem="CNU-kX-QTG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="wKz-YS-Gjw"/>
+                <constraint firstAttribute="trailing" secondItem="CNU-kX-QTG" secondAttribute="trailing" constant="50" id="zyq-CN-yjh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

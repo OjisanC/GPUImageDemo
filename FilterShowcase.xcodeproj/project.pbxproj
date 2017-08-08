@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D69488E1501F71900206FF8 /* SampleConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D69488D1501F71900206FF8 /* SampleConfiguration.plist */; };
+		4A60F26CB16815C9CFBE7EE2 /* libPods-FilterShowcase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4728A8EAA6E1474CDE80681 /* libPods-FilterShowcase.a */; };
+		556E616C1F31AEAA00E3C5C8 /* ShowcaseMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556E616A1F31AEAA00E3C5C8 /* ShowcaseMainViewController.m */; };
+		556E616D1F31AEAA00E3C5C8 /* ShowcaseMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556E616B1F31AEAA00E3C5C8 /* ShowcaseMainViewController.xib */; };
+		556E61721F31C1FF00E3C5C8 /* ShowcasePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556E61701F31C1FF00E3C5C8 /* ShowcasePictureViewController.m */; };
+		556E61731F31C1FF00E3C5C8 /* ShowcasePictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556E61711F31C1FF00E3C5C8 /* ShowcasePictureViewController.xib */; };
+		556E61791F3455AC00E3C5C8 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556E61781F3455AC00E3C5C8 /* test.jpg */; };
+		556E617B1F34598700E3C5C8 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556E617A1F34598700E3C5C8 /* dog.jpg */; };
+		55A8FBA51F39851500109D93 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FB9C1F39851500109D93 /* Icon-72.png */; };
+		55A8FBA61F39851500109D93 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FB9D1F39851500109D93 /* Icon-72@2x.png */; };
+		55A8FBA71F39851500109D93 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FB9E1F39851500109D93 /* Icon.png */; };
+		55A8FBA81F39851500109D93 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FB9F1F39851500109D93 /* Icon@2x.png */; };
+		55A8FBA91F39851500109D93 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBA01F39851500109D93 /* iTunesArtwork.png */; };
+		55A8FBAA1F39851500109D93 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBA11F39851500109D93 /* lookup_amatorka.png */; };
+		55A8FBAB1F39851500109D93 /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBA21F39851500109D93 /* lookup_miss_etikate.png */; };
+		55A8FBAC1F39851500109D93 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBA31F39851500109D93 /* lookup_soft_elegance_1.png */; };
+		55A8FBAD1F39851500109D93 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBA41F39851500109D93 /* lookup_soft_elegance_2.png */; };
+		55A8FBAF1F39854600109D93 /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A8FBAE1F39854600109D93 /* WID-small.jpg */; };
+		6BF3ED5715B5C2BF002F9E9E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF3ED5615B5C2BF002F9E9E /* CoreImage.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		83AE9FD41540F3CC00F7FC13 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE9FD31540F3CC00F7FC13 /* mask.png */; };
+		BC982B0714F046AC0001FF6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B0614F046AC0001FF6F /* UIKit.framework */; };
+		BC982B0914F046AC0001FF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B0814F046AC0001FF6F /* Foundation.framework */; };
+		BC982B0B14F046AC0001FF6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B0A14F046AC0001FF6F /* CoreGraphics.framework */; };
+		BC982B1114F046AC0001FF6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC982B0F14F046AC0001FF6F /* InfoPlist.strings */; };
+		BC982B1314F046AC0001FF6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC982B1214F046AC0001FF6F /* main.m */; };
+		BC982B1714F046AC0001FF6F /* ShowcaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC982B1614F046AC0001FF6F /* ShowcaseAppDelegate.m */; };
+		BC982B2014F048160001FF6F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B1D14F048160001FF6F /* CoreMedia.framework */; };
+		BC982B2114F048160001FF6F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B1E14F048160001FF6F /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BC982B2214F048160001FF6F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B1F14F048160001FF6F /* QuartzCore.framework */; };
+		BC982B2414F0481C0001FF6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B2314F0481C0001FF6F /* AVFoundation.framework */; };
+		BC982B2614F048230001FF6F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC982B2514F048230001FF6F /* OpenGLES.framework */; };
+		BC982B3614F04B3A0001FF6F /* ShowcaseFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC982B3414F04B3A0001FF6F /* ShowcaseFilterViewController.m */; };
+		BC982B3714F04B3A0001FF6F /* ShowcaseFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC982B3514F04B3A0001FF6F /* ShowcaseFilterViewController.xib */; };
+		BC982B3F14F05DC20001FF6F /* ShowcaseFilterListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC982B3E14F05DC10001FF6F /* ShowcaseFilterListController.m */; };
+		BC982C4114F1F6C80001FF6F /* CustomFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BC982C4014F1F6C80001FF6F /* CustomFilter.fsh */; };
+		E5530A36180FD1D500597F98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5530A35180FD1D500597F98 /* Default-568h@2x.png */; };
+		F2F3361E156585C400B0FBB8 /* voroni_points2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F3361D156585C400B0FBB8 /* voroni_points2.png */; };
+		F2F336271565906000B0FBB8 /* dotletterstiles.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F336261565906000B0FBB8 /* dotletterstiles.png */; };
+		F2F33629156591CA00B0FBB8 /* curvies.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F33628156591CA00B0FBB8 /* curvies.png */; };
+		F2F3362B156591DB00B0FBB8 /* squares.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F3362A156591DB00B0FBB8 /* squares.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0584AB8B4BA2BF8F849FE8F6 /* Pods-FilterShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		0D69488D1501F71900206FF8 /* SampleConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleConfiguration.plist; sourceTree = "<group>"; };
+		556E61691F31AEAA00E3C5C8 /* ShowcaseMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseMainViewController.h; sourceTree = "<group>"; };
+		556E616A1F31AEAA00E3C5C8 /* ShowcaseMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseMainViewController.m; sourceTree = "<group>"; };
+		556E616B1F31AEAA00E3C5C8 /* ShowcaseMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowcaseMainViewController.xib; sourceTree = "<group>"; };
+		556E616F1F31C1FF00E3C5C8 /* ShowcasePictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcasePictureViewController.h; sourceTree = "<group>"; };
+		556E61701F31C1FF00E3C5C8 /* ShowcasePictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcasePictureViewController.m; sourceTree = "<group>"; };
+		556E61711F31C1FF00E3C5C8 /* ShowcasePictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowcasePictureViewController.xib; sourceTree = "<group>"; };
+		556E61781F3455AC00E3C5C8 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		556E617A1F34598700E3C5C8 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		55A8FB9C1F39851500109D93 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "SharedIcons/Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		55A8FB9D1F39851500109D93 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "SharedIcons/Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		55A8FB9E1F39851500109D93 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = SharedIcons/Icon.png; sourceTree = SOURCE_ROOT; };
+		55A8FB9F1F39851500109D93 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "SharedIcons/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		55A8FBA01F39851500109D93 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = SharedIcons/iTunesArtwork.png; sourceTree = SOURCE_ROOT; };
+		55A8FBA11F39851500109D93 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_amatorka.png; path = SharedIcons/lookup_amatorka.png; sourceTree = SOURCE_ROOT; };
+		55A8FBA21F39851500109D93 /* lookup_miss_etikate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_miss_etikate.png; path = SharedIcons/lookup_miss_etikate.png; sourceTree = SOURCE_ROOT; };
+		55A8FBA31F39851500109D93 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_soft_elegance_1.png; path = SharedIcons/lookup_soft_elegance_1.png; sourceTree = SOURCE_ROOT; };
+		55A8FBA41F39851500109D93 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_soft_elegance_2.png; path = SharedIcons/lookup_soft_elegance_2.png; sourceTree = SOURCE_ROOT; };
+		55A8FBAE1F39854600109D93 /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "WID-small.jpg"; path = "SharedIcons/WID-small.jpg"; sourceTree = SOURCE_ROOT; };
+		6BF3ED5615B5C2BF002F9E9E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		83AE9FD31540F3CC00F7FC13 /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		BC982B0214F046AC0001FF6F /* FilterShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC982B0614F046AC0001FF6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC982B0814F046AC0001FF6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC982B0A14F046AC0001FF6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC982B0E14F046AC0001FF6F /* FilterShowcase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterShowcase-Info.plist"; sourceTree = "<group>"; };
+		BC982B1014F046AC0001FF6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC982B1214F046AC0001FF6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC982B1414F046AC0001FF6F /* FilterShowcase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterShowcase-Prefix.pch"; sourceTree = "<group>"; };
+		BC982B1514F046AC0001FF6F /* ShowcaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowcaseAppDelegate.h; sourceTree = "<group>"; };
+		BC982B1614F046AC0001FF6F /* ShowcaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowcaseAppDelegate.m; sourceTree = "<group>"; };
+		BC982B1D14F048160001FF6F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BC982B1E14F048160001FF6F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BC982B1F14F048160001FF6F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC982B2314F0481C0001FF6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC982B2514F048230001FF6F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BC982B3314F04B3A0001FF6F /* ShowcaseFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFilterViewController.h; sourceTree = "<group>"; };
+		BC982B3414F04B3A0001FF6F /* ShowcaseFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFilterViewController.m; sourceTree = "<group>"; };
+		BC982B3514F04B3A0001FF6F /* ShowcaseFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowcaseFilterViewController.xib; sourceTree = "<group>"; };
+		BC982B3D14F05DC10001FF6F /* ShowcaseFilterListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFilterListController.h; sourceTree = "<group>"; };
+		BC982B3E14F05DC10001FF6F /* ShowcaseFilterListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFilterListController.m; sourceTree = "<group>"; };
+		BC982C4014F1F6C80001FF6F /* CustomFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomFilter.fsh; sourceTree = "<group>"; };
+		E4728A8EAA6E1474CDE80681 /* libPods-FilterShowcase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FilterShowcase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5530A35180FD1D500597F98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EDF516A9DDA44FDE842B95A8 /* Pods-FilterShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F3361D156585C400B0FBB8 /* voroni_points2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voroni_points2.png; sourceTree = "<group>"; };
+		F2F336261565906000B0FBB8 /* dotletterstiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotletterstiles.png; sourceTree = "<group>"; };
+		F2F33628156591CA00B0FBB8 /* curvies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curvies.png; sourceTree = "<group>"; };
+		F2F3362A156591DB00B0FBB8 /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC982AFF14F046AC0001FF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF3ED5715B5C2BF002F9E9E /* CoreImage.framework in Frameworks */,
+				BC982B2614F048230001FF6F /* OpenGLES.framework in Frameworks */,
+				BC982B2414F0481C0001FF6F /* AVFoundation.framework in Frameworks */,
+				BC982B2014F048160001FF6F /* CoreMedia.framework in Frameworks */,
+				BC982B2114F048160001FF6F /* CoreVideo.framework in Frameworks */,
+				BC982B2214F048160001FF6F /* QuartzCore.framework in Frameworks */,
+				BC982B0714F046AC0001FF6F /* UIKit.framework in Frameworks */,
+				BC982B0914F046AC0001FF6F /* Foundation.framework in Frameworks */,
+				BC982B0B14F046AC0001FF6F /* CoreGraphics.framework in Frameworks */,
+				4A60F26CB16815C9CFBE7EE2 /* libPods-FilterShowcase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF73CA8309DA284D6DE3BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF516A9DDA44FDE842B95A8 /* Pods-FilterShowcase.debug.xcconfig */,
+				0584AB8B4BA2BF8F849FE8F6 /* Pods-FilterShowcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC982AF714F046AC0001FF6F = {
+			isa = PBXGroup;
+			children = (
+				E5530A35180FD1D500597F98 /* Default-568h@2x.png */,
+				BC982B0C14F046AC0001FF6F /* FilterShowcase */,
+				BC982B0514F046AC0001FF6F /* Frameworks */,
+				BC982B0314F046AC0001FF6F /* Products */,
+				1FF73CA8309DA284D6DE3BD7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BC982B0314F046AC0001FF6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC982B0214F046AC0001FF6F /* FilterShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC982B0514F046AC0001FF6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF3ED5615B5C2BF002F9E9E /* CoreImage.framework */,
+				BC982B2514F048230001FF6F /* OpenGLES.framework */,
+				BC982B2314F0481C0001FF6F /* AVFoundation.framework */,
+				BC982B1D14F048160001FF6F /* CoreMedia.framework */,
+				BC982B1E14F048160001FF6F /* CoreVideo.framework */,
+				BC982B1F14F048160001FF6F /* QuartzCore.framework */,
+				BC982B0614F046AC0001FF6F /* UIKit.framework */,
+				BC982B0814F046AC0001FF6F /* Foundation.framework */,
+				BC982B0A14F046AC0001FF6F /* CoreGraphics.framework */,
+				E4728A8EAA6E1474CDE80681 /* libPods-FilterShowcase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC982B0C14F046AC0001FF6F /* FilterShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				556E617A1F34598700E3C5C8 /* dog.jpg */,
+				556E61781F3455AC00E3C5C8 /* test.jpg */,
+				556E61691F31AEAA00E3C5C8 /* ShowcaseMainViewController.h */,
+				556E616A1F31AEAA00E3C5C8 /* ShowcaseMainViewController.m */,
+				556E616B1F31AEAA00E3C5C8 /* ShowcaseMainViewController.xib */,
+				BC982B1514F046AC0001FF6F /* ShowcaseAppDelegate.h */,
+				BC982B1614F046AC0001FF6F /* ShowcaseAppDelegate.m */,
+				BC982B3D14F05DC10001FF6F /* ShowcaseFilterListController.h */,
+				BC982B3E14F05DC10001FF6F /* ShowcaseFilterListController.m */,
+				BC982B3514F04B3A0001FF6F /* ShowcaseFilterViewController.xib */,
+				BC982B3314F04B3A0001FF6F /* ShowcaseFilterViewController.h */,
+				BC982B3414F04B3A0001FF6F /* ShowcaseFilterViewController.m */,
+				BC982C4014F1F6C80001FF6F /* CustomFilter.fsh */,
+				BC982B0D14F046AC0001FF6F /* Supporting Files */,
+				556E616F1F31C1FF00E3C5C8 /* ShowcasePictureViewController.h */,
+				556E61701F31C1FF00E3C5C8 /* ShowcasePictureViewController.m */,
+				556E61711F31C1FF00E3C5C8 /* ShowcasePictureViewController.xib */,
+			);
+			path = FilterShowcase;
+			sourceTree = "<group>";
+		};
+		BC982B0D14F046AC0001FF6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A8FBAE1F39854600109D93 /* WID-small.jpg */,
+				55A8FB9C1F39851500109D93 /* Icon-72.png */,
+				55A8FB9D1F39851500109D93 /* Icon-72@2x.png */,
+				55A8FB9E1F39851500109D93 /* Icon.png */,
+				55A8FB9F1F39851500109D93 /* Icon@2x.png */,
+				55A8FBA01F39851500109D93 /* iTunesArtwork.png */,
+				55A8FBA11F39851500109D93 /* lookup_amatorka.png */,
+				55A8FBA21F39851500109D93 /* lookup_miss_etikate.png */,
+				55A8FBA31F39851500109D93 /* lookup_soft_elegance_1.png */,
+				55A8FBA41F39851500109D93 /* lookup_soft_elegance_2.png */,
+				F2F3362A156591DB00B0FBB8 /* squares.png */,
+				F2F33628156591CA00B0FBB8 /* curvies.png */,
+				F2F336261565906000B0FBB8 /* dotletterstiles.png */,
+				F2F3361D156585C400B0FBB8 /* voroni_points2.png */,
+				83AE9FD31540F3CC00F7FC13 /* mask.png */,
+				BC982B0E14F046AC0001FF6F /* FilterShowcase-Info.plist */,
+				BC982B0F14F046AC0001FF6F /* InfoPlist.strings */,
+				BC982B1214F046AC0001FF6F /* main.m */,
+				BC982B1414F046AC0001FF6F /* FilterShowcase-Prefix.pch */,
+				0D69488D1501F71900206FF8 /* SampleConfiguration.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC982B0114F046AC0001FF6F /* FilterShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC982B1A14F046AC0001FF6F /* Build configuration list for PBXNativeTarget "FilterShowcase" */;
+			buildPhases = (
+				094D3AD4787FCCD42B140F2F /* [CP] Check Pods Manifest.lock */,
+				BC982AFE14F046AC0001FF6F /* Sources */,
+				BC982AFF14F046AC0001FF6F /* Frameworks */,
+				BC982B0014F046AC0001FF6F /* Resources */,
+				C6FD19BE7AF01875CC03EB22 /* [CP] Embed Pods Frameworks */,
+				14025D30A001DEBE952EB7B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterShowcase;
+			productName = FilterShowcase;
+			productReference = BC982B0214F046AC0001FF6F /* FilterShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC982AF914F046AC0001FF6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Showcase;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cell Phone";
+				TargetAttributes = {
+					BC982B0114F046AC0001FF6F = {
+						DevelopmentTeam = 3263JNZJ56;
+					};
+				};
+			};
+			buildConfigurationList = BC982AFC14F046AC0001FF6F /* Build configuration list for PBXProject "FilterShowcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC982AF714F046AC0001FF6F;
+			productRefGroup = BC982B0314F046AC0001FF6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC982B0114F046AC0001FF6F /* FilterShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC982B0014F046AC0001FF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A8FBA71F39851500109D93 /* Icon.png in Resources */,
+				556E617B1F34598700E3C5C8 /* dog.jpg in Resources */,
+				55A8FBA51F39851500109D93 /* Icon-72.png in Resources */,
+				BC982C4114F1F6C80001FF6F /* CustomFilter.fsh in Resources */,
+				BC982B1114F046AC0001FF6F /* InfoPlist.strings in Resources */,
+				55A8FBAC1F39851500109D93 /* lookup_soft_elegance_1.png in Resources */,
+				55A8FBAF1F39854600109D93 /* WID-small.jpg in Resources */,
+				BC982B3714F04B3A0001FF6F /* ShowcaseFilterViewController.xib in Resources */,
+				0D69488E1501F71900206FF8 /* SampleConfiguration.plist in Resources */,
+				83AE9FD41540F3CC00F7FC13 /* mask.png in Resources */,
+				55A8FBA81F39851500109D93 /* Icon@2x.png in Resources */,
+				55A8FBA91F39851500109D93 /* iTunesArtwork.png in Resources */,
+				55A8FBAB1F39851500109D93 /* lookup_miss_etikate.png in Resources */,
+				F2F3361E156585C400B0FBB8 /* voroni_points2.png in Resources */,
+				55A8FBAD1F39851500109D93 /* lookup_soft_elegance_2.png in Resources */,
+				F2F336271565906000B0FBB8 /* dotletterstiles.png in Resources */,
+				F2F33629156591CA00B0FBB8 /* curvies.png in Resources */,
+				F2F3362B156591DB00B0FBB8 /* squares.png in Resources */,
+				55A8FBAA1F39851500109D93 /* lookup_amatorka.png in Resources */,
+				55A8FBA61F39851500109D93 /* Icon-72@2x.png in Resources */,
+				556E616D1F31AEAA00E3C5C8 /* ShowcaseMainViewController.xib in Resources */,
+				556E61731F31C1FF00E3C5C8 /* ShowcasePictureViewController.xib in Resources */,
+				E5530A36180FD1D500597F98 /* Default-568h@2x.png in Resources */,
+				556E61791F3455AC00E3C5C8 /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094D3AD4787FCCD42B140F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14025D30A001DEBE952EB7B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FD19BE7AF01875CC03EB22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilterShowcase/Pods-FilterShowcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC982AFE14F046AC0001FF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556E61721F31C1FF00E3C5C8 /* ShowcasePictureViewController.m in Sources */,
+				BC982B1314F046AC0001FF6F /* main.m in Sources */,
+				BC982B1714F046AC0001FF6F /* ShowcaseAppDelegate.m in Sources */,
+				BC982B3614F04B3A0001FF6F /* ShowcaseFilterViewController.m in Sources */,
+				556E616C1F31AEAA00E3C5C8 /* ShowcaseMainViewController.m in Sources */,
+				BC982B3F14F05DC20001FF6F /* ShowcaseFilterListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC982B0F14F046AC0001FF6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC982B1014F046AC0001FF6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC982B1814F046AC0001FF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../framework/Source,
+					../../../framework/Source/iOS,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC982B1914F046AC0001FF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../framework/Source,
+					../../../framework/Source/iOS,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC982B1B14F046AC0001FF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF516A9DDA44FDE842B95A8 /* Pods-FilterShowcase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3263JNZJ56;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterShowcase/FilterShowcase-Prefix.pch";
+				INFOPLIST_FILE = "FilterShowcase/FilterShowcase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC982B1C14F046AC0001FF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0584AB8B4BA2BF8F849FE8F6 /* Pods-FilterShowcase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3263JNZJ56;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterShowcase/FilterShowcase-Prefix.pch";
+				INFOPLIST_FILE = "FilterShowcase/FilterShowcase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC982AFC14F046AC0001FF6F /* Build configuration list for PBXProject "FilterShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC982B1814F046AC0001FF6F /* Debug */,
+				BC982B1914F046AC0001FF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC982B1A14F046AC0001FF6F /* Build configuration list for PBXNativeTarget "FilterShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC982B1B14F046AC0001FF6F /* Debug */,
+				BC982B1C14F046AC0001FF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC982AF914F046AC0001FF6F /* Project object */;
+}
